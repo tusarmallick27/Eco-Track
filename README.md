@@ -1,104 +1,197 @@
-# EcoTrack — Smart Sustainability & Waste Management Platform
+# 🌱 EcoTrack – Track Your Impact. Protect Our Planet.
 
-> **"Track Waste. Save Earth. Inspire Change."**
+<p align="center">
 
-EcoTrack is a modern, full-stack sustainability technology platform designed to help households, communities, and organizations monitor waste diversion, identify recyclable packaging via computer vision, locate specialized recovery depots, and participate in gamified circular challenges.
+  **A Smarter Way to Build a Sustainable Future.**
 
----
+  An innovative sustainability platform designed to encourage eco-friendly habits, environmental awareness, and responsible living.
 
-## 🚀 Live Local Development Link
+  **Live Website:** https://eco-track-bjj9j2u4p-tusar-mallick.vercel.app/
 
-The development server is running and accessible at:
-- **Local:** [http://localhost:5173/](http://localhost:5173/)
-- **Network:** [http://10.131.231.50:5173/](http://10.131.231.50:5173/)
+</p>
 
 ---
 
-## 🌟 Key Features
+## 🌍 About EcoTrack
 
-1. **AI Smart Waste Identifier:**
-   - Multimodal image classification powered by Google Gemini 1.5 Flash Vision & built-in Environmental Neural Engine.
-   - Identifies resin codes (PET #1, HDPE #2, PP #5, etc.), recyclability index, decomposition lifespan, and step-by-step bin segregation instructions.
-   - 1-click test presets included (PET water bottle, soda can, cardboard box, e-waste smartphone, organic scraps, styrofoam cup).
+**EcoTrack** is a modern environmental sustainability project built to inspire individuals to make environmentally responsible choices in their everyday lives.
 
-2. **Interactive Waste Tracker (Full CRUD):**
-   - Log plastics, metals, paper, e-waste, organics, and glass.
-   - Real-time unit conversions to kilograms.
-   - Filter by material category, date range, and disposal method (Recycled, Composted, Landfill, Donated, Repurposed).
+Our planet faces serious environmental challenges, including climate change, pollution, excessive waste, and resource depletion.
 
-3. **Recycling Center Locator:**
-   - Interactive OpenStreetMap (Leaflet) discovery with custom glowing pins.
-   - Search by city or area (Seattle, San Francisco, New York, etc.).
-   - Browser geolocation support.
-   - Direct external GPS navigation links via Google Maps / OSM.
+EcoTrack aims to make sustainability more understandable, accessible, and engaging by bringing environmental awareness and eco-friendly lifestyle tracking into one digital platform.
 
-4. **Gamification & Eco Challenges:**
-   - User levels (Seedling → Sprout → Eco Scout → Green Guardian → Planet Protector → Earth Champion).
-   - Milestone badges and celebratory confetti animations.
-   - Actionable 7-day sustainability sprints (Plastic-Free Week, Paper Recycling Sprint, E-Waste Sweep).
+Our mission is simple:
 
-5. **Community Leaderboard & Privacy Control:**
-   - Real-time rankings by eco points and diverted kilograms.
-   - Top 3 podium highlight.
-   - User privacy toggle to show or hide profile from public leaderboard.
-
-6. **EcoBot AI Assistant:**
-   - 24/7 circular economy advisor for sorting questions, composting chemistry, and battery disposal.
-   - One-click suggested prompts, typing indicator, and conversation history.
-
-7. **Certified Analytics & Documented Impact (EPA WARM):**
-   - Greenhouse gas avoidance (kg CO2e) based on EPA WARM v15 factors.
-   - Water and energy conservation metrics.
-   - One-click export for **CSV data spreadsheets** and **Print-Ready PDF Impact Audits**.
-
-8. **Administrator Console:**
-   - Role-based security (normal user vs administrator).
-   - Manage recycling depot directory and approve locations.
-   - Create and publish new community challenges.
-   - Security audit logs.
-
-9. **Judge & Hackathon Demo Mode:**
-   - Zero-friction one-click switching between regular user (*Alex Green*) and administrator (*Sarah Vance*).
-   - Works 100% out of the box with offline persistence even before adding external API keys.
+**Small Actions. Measurable Impact. A Greener Tomorrow.**
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Key Highlights
 
-- **Frontend:** React 19, TypeScript, Tailwind CSS, Framer Motion, Lucide Icons
-- **Mapping:** OpenStreetMap & Leaflet (`leaflet`, `react-leaflet`)
-- **Charts:** Recharts
-- **PDF Generation:** jsPDF
-- **Backend & Database:** Supabase, PostgreSQL, Row Level Security (RLS)
-- **AI Vision & Chat:** Google Gemini API (`gemini-1.5-flash`) + Built-in Vision Fallback Engine
-- **Build Tool:** Vite
-
----
-
-## 📦 Database Setup (Supabase)
-
-A complete 10-table PostgreSQL schema with Row Level Security (RLS) is located at:
-`supabase/schema.sql`
-
-Tables:
-1. `profiles`
-2. `waste_records`
-3. `waste_analyses`
-4. `recycling_centers`
-5. `eco_points_transactions`
-6. `challenges`
-7. `user_challenges`
-8. `achievements`
-9. `user_achievements`
-10. `chatbot_conversations`
-
-To connect to your own Supabase project:
-1. Copy `.env.example` to `.env`.
-2. Paste your `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
-3. Run the SQL schema from `supabase/schema.sql` inside your Supabase SQL Editor.
+- 🌱 **Sustainability Focus:** Encourages environmentally responsible habits.
+- 🌍 **Environmental Awareness:** Promotes understanding of environmental challenges.
+- ♻️ **Eco-Friendly Lifestyle:** Encourages waste reduction, recycling, and responsible consumption.
+- 📊 **Impact Tracking Concept:** Helps users understand their contribution to a sustainable lifestyle.
+- 💻 **Modern Interface:** A clean and engaging web experience.
+- 📱 **Responsive Design:** Designed with accessibility across different screen sizes in mind.
 
 ---
 
-## 📄 License
+## 🎯 Project Objectives
 
-MIT License — Built for the planet.
+1. Increase awareness about environmental sustainability.
+2. Encourage people to adopt eco-friendly daily habits.
+3. Make sustainable living easier to understand.
+4. Promote responsible consumption and waste management.
+5. Use technology to encourage positive environmental change.
+
+---
+
+## 🛠️ Technology Stack
+
+The following section should reflect the actual technologies used in the project.
+
+- **Frontend:** [Add your frontend framework]
+- **Styling:** [Add your CSS framework or styling technology]
+- **Backend:** [Add if implemented]
+- **Database:** [Add if implemented]
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
+
+---
+
+## 🚀 Live Demo
+
+Explore the deployed project:
+
+🔗 https://eco-track-bjj9j2u4p-tusar-mallick.vercel.app/
+
+---
+
+## 📸 Project Preview
+
+Add screenshots of your website here to showcase the interface.
+
+```md
+![EcoTrack Homepage](screenshots/homepage.png)
+```
+
+You can create a `screenshots` folder in your GitHub repository and upload your website screenshots.
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run EcoTrack locally.
+
+**1. Clone the repository**
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd eco-track
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+**5. Open in your browser**
+
+```text
+http://localhost:5173
+```
+
+*Note: These commands assume an npm-based Vite project. Adjust them if your project uses a different setup.*
+
+---
+
+## 🌿 Why EcoTrack?
+
+Environmental protection is not just the responsibility of governments or large organizations. Every individual can contribute.
+
+EcoTrack represents the idea that technology can help people become more conscious of their environmental impact.
+
+Instead of simply talking about protecting the planet, we want to encourage people to take meaningful action.
+
+---
+
+## 🔮 Future Enhancements
+
+- AI-powered sustainability recommendations.
+- Personal environmental impact dashboard.
+- Daily eco-friendly challenges.
+- Carbon footprint estimation.
+- Recycling and waste management guidance.
+- Sustainability progress reports.
+- Community participation and leaderboards.
+- Smart environmental analytics.
+
+---
+
+## 🎓 Project Information
+
+| Detail | Information |
+|---|---|
+| Project Name | EcoTrack |
+| Category | Environmental Technology |
+| Domain | Sustainability & Green Technology |
+| Project Type | Web Application |
+| Deployment | Vercel |
+| Version Control | GitHub |
+| Developer | Tusar Mallick |
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and ideas are welcome!
+
+1. Fork this repository.
+2. Create a new feature branch.
+3. Make your changes.
+4. Submit a pull request.
+
+Let's work together to build a greener future!
+
+---
+
+## 👨‍💻 Developer
+
+**Tusar Mallick**
+
+B.Tech Student | Aspiring Software Developer | Technology Enthusiast
+
+GitHub: https://github.com/tusarmallick27
+
+---
+
+## 📜 License
+
+This project is intended for educational and development purposes.
+
+Consider adding an MIT License if you want others to reuse and modify the project under its terms.
+
+---
+
+<p align="center">
+
+  🌍 **THINK GREEN. LIVE CLEAN. TRACK YOUR IMPACT.**
+
+  **EcoTrack – Every Action Counts.**
+
+  Made with 💚 for a Sustainable Future.
+
+</p>
